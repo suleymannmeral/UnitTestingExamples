@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61361AB6-BD53-43FF-A339-323CE1BD3811}|TestingTechniques\\TestingTechniques.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\testingtechniques\\valuesample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61361AB6-BD53-43FF-A339-323CE1BD3811}|TestingTechniques\\TestingTechniques.csproj|solutionrelative:testingtechniques\\valuesample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522364B6-427C-4FC2-8DBC-F0533B1A0BA9}|TestingTechniques.Test.Unit\\TestingTechniques.Test.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\testingtechniques.test.unit\\valuesamplestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522364B6-427C-4FC2-8DBC-F0533B1A0BA9}|TestingTechniques.Test.Unit\\TestingTechniques.Test.Unit.csproj|solutionrelative:testingtechniques.test.unit\\valuesamplestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61361AB6-BD53-43FF-A339-323CE1BD3811}|TestingTechniques\\TestingTechniques.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\testingtechniques\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61361AB6-BD53-43FF-A339-323CE1BD3811}|TestingTechniques\\TestingTechniques.csproj|solutionrelative:testingtechniques\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8B7B549-5684-4543-8039-378E608B1A53}|CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\calculatorlibrarytest\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8B7B549-5684-4543-8039-378E608B1A53}|CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj|solutionrelative:calculatorlibrarytest\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,32 +51,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ValueSamplesTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "RelativeDocumentMoniker": "TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "RelativeToolTip": "TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T13:03:43.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValueSample.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\TestingTechniques\\ValueSample.cs",
+              "RelativeDocumentMoniker": "TestingTechniques\\ValueSample.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\TestingTechniques\\ValueSample.cs",
+              "RelativeToolTip": "TestingTechniques\\ValueSample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:58:15.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\TestingTechniques\\Users.cs",
+              "RelativeDocumentMoniker": "TestingTechniques\\Users.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\TestingTechniques\\Users.cs",
+              "RelativeToolTip": "TestingTechniques\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:58:04.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CalculatorLibrary.Tests.Unit.csproj",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj",
               "RelativeDocumentMoniker": "CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj",
               "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj",
               "RelativeToolTip": "CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-07-18T18:16:16.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CalculatorTests.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\CalculatorLibraryTest\\CalculatorTests.cs",
               "RelativeDocumentMoniker": "CalculatorLibraryTest\\CalculatorTests.cs",
               "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\CalculatorLibraryTest\\CalculatorTests.cs",
               "RelativeToolTip": "CalculatorLibraryTest\\CalculatorTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T18:16:58.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\CalculatorLibrary\\Calculator.cs",
               "RelativeDocumentMoniker": "CalculatorLibrary\\Calculator.cs",
@@ -72,7 +123,8 @@
               "RelativeToolTip": "CalculatorLibrary\\Calculator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:11:37.186Z"
+              "WhenOpened": "2025-07-18T18:11:37.186Z",
+              "EditorCaption": ""
             }
           ]
         }

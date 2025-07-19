@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yVlchJRA2fw=",
+  "dgSpecHash": "EspIVZAaQtY=",
   "success": true,
   "projectFilePath": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suley\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\suley\\.nuget\\packages\\fluentassertions\\8.5.0\\fluentassertions.8.5.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

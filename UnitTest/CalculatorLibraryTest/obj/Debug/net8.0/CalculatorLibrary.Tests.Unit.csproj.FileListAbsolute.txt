@@ -100,3 +100,5 @@ C:\Users\suley\source\repos\UnitTesting\UnitTest\CalculatorLibraryTest\bin\Debug
 C:\Users\suley\source\repos\UnitTesting\UnitTest\CalculatorLibraryTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\suley\source\repos\UnitTesting\UnitTest\CalculatorLibraryTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\suley\source\repos\UnitTesting\UnitTest\CalculatorLibraryTest\obj\Debug\net8.0\CalculatorLibrary.Tests.Unit.genruntimeconfig.cache
+C:\Users\suley\source\repos\UnitTesting\UnitTest\CalculatorLibraryTest\obj\Debug\net8.0\CalculatorLibrary.Tests.Unit.sourcelink.json
+C:\Users\suley\source\repos\UnitTesting\UnitTest\CalculatorLibraryTest\bin\Debug\net8.0\FluentAssertions.dll

@@ -1,0 +1,12 @@
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\bin\Debug\net8.0\TestingTechniques.deps.json
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\bin\Debug\net8.0\TestingTechniques.dll
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\bin\Debug\net8.0\TestingTechniques.pdb
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\TestingTechniques.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\TestingTechniques.AssemblyInfoInputs.cache
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\TestingTechniques.AssemblyInfo.cs
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\TestingTechniques.csproj.CoreCompileInputs.cache
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\TestingTechniques.sourcelink.json
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\TestingTechniques.dll
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\refint\TestingTechniques.dll
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\TestingTechniques.pdb
+C:\Users\suley\source\repos\UnitTesting\UnitTest\TestingTechniques\obj\Debug\net8.0\ref\TestingTechniques.dll
