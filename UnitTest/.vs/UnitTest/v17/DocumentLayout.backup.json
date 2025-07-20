@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api\\logging\\iloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|solutionrelative:users.api\\logging\\iloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{911235EE-6B4C-44B2-9AE9-C643ABC1E1E9}|Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api.tests.unit\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{911235EE-6B4C-44B2-9AE9-C643ABC1E1E9}|Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|solutionrelative:users.api.tests.unit\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{911235EE-6B4C-44B2-9AE9-C643ABC1E1E9}|Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api.tests.unit\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{911235EE-6B4C-44B2-9AE9-C643ABC1E1E9}|Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|solutionrelative:users.api.tests.unit\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|solutionrelative:users.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|solutionrelative:users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|solutionrelative:users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|solutionrelative:users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api\\validators\\createuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|solutionrelative:users.api\\validators\\createuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +55,103 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Users.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Program.cs",
+              "RelativeToolTip": "Users.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T21:22:41.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILoggerAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Logging\\ILoggerAdapter.cs",
+              "RelativeDocumentMoniker": "Users.Api\\Logging\\ILoggerAdapter.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Logging\\ILoggerAdapter.cs",
+              "RelativeToolTip": "Users.Api\\Logging\\ILoggerAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T21:20:17.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Users.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Users.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T13:50:27.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateUserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Validators\\CreateUserDtoValidator.cs",
+              "RelativeDocumentMoniker": "Users.Api\\Validators\\CreateUserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Validators\\CreateUserDtoValidator.cs",
+              "RelativeToolTip": "Users.Api\\Validators\\CreateUserDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T13:50:25.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Users.Api\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Services\\UserService.cs",
+              "RelativeToolTip": "Users.Api\\Services\\UserService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:45:28.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "RelativeToolTip": "Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:40:16.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api.Tests.Unit\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "Users.Api.Tests.Unit\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api.Tests.Unit\\UserServiceTests.cs",
+              "RelativeToolTip": "Users.Api.Tests.Unit\\UserServiceTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:39:34.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Users.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Users.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T13:50:31.1Z"
             }
           ]
         }
