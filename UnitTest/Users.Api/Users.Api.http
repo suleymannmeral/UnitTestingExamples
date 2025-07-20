@@ -1,0 +1,30 @@
+@Users.Api_HostAddress = http://localhost:5197
+
+GET {{Users.Api_HostAddress}}/api/Users/GetAll
+Accept: application/json
+
+###
+
+
+GET {{Users.Api_HostAddress}}/api/Users/GetById/da998b98-34ae-489b-8df0-dbec672d44f0
+Accept: application/json
+
+###
+
+POST {{Users.Api_HostAddress}}/api/Users/Create
+Accept: application/json
+Content-Type:application/json
+{
+  "fullname": "Süleyman Meral"
+}
+
+###
+
+DELETE {{Users.Api_HostAddress}}/api/Users/DeleteById/da998b98-34ae-489b-8df0-dbec672d44f0
+Accept: application/json
+
+###
+
+
+
+
