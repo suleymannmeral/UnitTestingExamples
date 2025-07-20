@@ -1,43 +1,54 @@
 ﻿using FluentAssertions;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnderstandingDependencies.Api.Context;
+using NSubstitute;
+using UnderstandingDependencies.Api.Models;
 using UnderstandingDependencies.Api.Repositories;
 using UnderstandingDependencies.Api.Services;
 
-namespace UnderstandingDependencies.Api.Tests.Unit
+namespace UnderstandingDependencies.Api.Tests.Unit;
+
+public class UserServiceTests
 {
-    public class UserServiceTests
+    private readonly UserService _sut;
+    private readonly IUserRepository _userRepository=Substitute.For<IUserRepository>();
+
+
+    public UserServiceTests()
     {
-     
+        _sut = new(_userRepository);
+    }
 
-        private readonly UserRepository _sut;
-        private readonly ApplicationDbContext _context;
+    [Fact]
+    public async Task GetAllAsync_ShoulReturnEmptyList_WhenNoUsersExist()
+    {
+        _userRepository.GetAllAsync().Returns(Array.Empty<User>());
+        // Arrange
+        // Act
+        var users = await _sut.GetAllUsersAsync();
+        // Assert
+        users.Should().BeEmpty();
+    }
 
-
-        public UserServiceTests()
+    [Fact]
+    public async Task GetAllAsync_ShouldReturnAListOfUsrs_WhenUsersExist()
+    {
+        //Arrange
+        var exceptedUsers = new[]
         {
-            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase("TestDb") 
-                .Options;
+            new User()
+            {
+                Id=25,
+                FullName="Süleyman Meral",
+                Age=23,
+                DateOfBirthDate= new DateOnly(2002, 06, 13)
 
-            _context = new ApplicationDbContext(options);
-            _sut = new UserRepository(_context);
-        }
+            }
 
-        [Fact]
-        public async Task GetAllAsync_ShoulReturnEmptyList_WhenNoUsersExist()
-        {
-            // Arrange
-            // Act
-            var users = await _sut.GetAllAsync();
-            // Assert
-            users.Should().BeEmpty("because no users have been added to the in-memory database yet.");
-        }
+        };
+        _userRepository.GetAllAsync().Returns(exceptedUsers);
+        //Act
+        var users=await _sut.GetAllUsersAsync();
+        //Assert
+        users.Should().ContainSingle(x => x.FullName == "Süleyman Meral");
+
     }
 }

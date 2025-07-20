@@ -9,10 +9,10 @@ namespace UnderstandingDependencies.Api.Services
         private readonly IUserRepository _userRepository;
         private readonly ILogger<UserService> _logger;
 
-        public UserService(IUserRepository userRepository, ILogger<UserService> logger)
+        public UserService(IUserRepository userRepository)
         {
             _userRepository = userRepository;
-            _logger = logger;
+            _logger=new Logger<UserService>(new LoggerFactory());
         }
 
         public async Task<IEnumerable<User>> GetAllUsersAsync()
