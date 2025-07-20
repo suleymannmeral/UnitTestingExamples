@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F9F5149-9EE1-A3DE-4992-504CA3313E06}|Fundamentals\\test\\CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\fundamentals\\test\\calculatorlibrarytest\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9F5149-9EE1-A3DE-4992-504CA3313E06}|Fundamentals\\test\\CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj|solutionrelative:fundamentals\\test\\calculatorlibrarytest\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC3C7D2-C9C0-0CEF-E54F-D1E6FDA7AABC}|Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\fundamentals\\src\\calculatorlibrary\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC3C7D2-C9C0-0CEF-E54F-D1E6FDA7AABC}|Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj|solutionrelative:fundamentals\\src\\calculatorlibrary\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\users.api\\logging\\iloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{808FB6D9-ABBF-4B4F-BE4F-A68B067EE4D4}|Users.Api\\Users.Api.csproj|solutionrelative:users.api\\logging\\iloggeradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "CalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "RelativeDocumentMoniker": "Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "RelativeToolTip": "Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T21:30:26.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\src\\CalculatorLibrary\\Calculator.cs",
+              "RelativeDocumentMoniker": "Fundamentals\\src\\CalculatorLibrary\\Calculator.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\src\\CalculatorLibrary\\Calculator.cs",
+              "RelativeToolTip": "Fundamentals\\src\\CalculatorLibrary\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T21:30:09.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Program.cs",
               "RelativeDocumentMoniker": "Users.Api\\Program.cs",
@@ -70,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ILoggerAdapter.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Logging\\ILoggerAdapter.cs",
               "RelativeDocumentMoniker": "Users.Api\\Logging\\ILoggerAdapter.cs",
@@ -83,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Users.Api\\Controllers\\UsersController.cs",
@@ -95,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CreateUserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Validators\\CreateUserDtoValidator.cs",
               "RelativeDocumentMoniker": "Users.Api\\Validators\\CreateUserDtoValidator.cs",
@@ -107,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Users.Api\\Services\\UserService.cs",
@@ -119,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api.Tests.Unit\\UserControllerTests.cs",
               "RelativeDocumentMoniker": "Users.Api.Tests.Unit\\UserControllerTests.cs",
@@ -131,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api.Tests.Unit\\UserServiceTests.cs",
               "RelativeDocumentMoniker": "Users.Api.Tests.Unit\\UserServiceTests.cs",
@@ -143,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Users.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Users.Api\\Properties\\launchSettings.json",
