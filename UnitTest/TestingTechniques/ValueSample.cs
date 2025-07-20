@@ -1,5 +1,7 @@
 ﻿
 
+using System.Reflection.Metadata.Ecma335;
+
 namespace TestingTechniques;
 
 public class ValueSample
@@ -24,4 +26,27 @@ public class ValueSample
 
     public IEnumerable<int> Numbers= new[] { 53,68,06,61 };
 
+    public float Divide(int a, int b)
+    {
+        EnsureThatDivisiorIsNotEqualsZero(a);
+        EnsureThatDivisiorIsNotEqualsZero(a);
+        return a / b;
+    }
+
+    private void EnsureThatDivisiorIsNotEqualsZero(int a)
+    {
+        if (a == 0)
+        {
+            throw new DivideByZeroException();
+        }
+    }
+
+    public event EventHandler MyEvent;
+
+    public virtual void RaiseMyEvent()
+    {
+        MyEvent(this, EventArgs.Empty);
+    }
+
+    internal int InternalSecretNumber = 52; //not accessible outside the assembly
 }

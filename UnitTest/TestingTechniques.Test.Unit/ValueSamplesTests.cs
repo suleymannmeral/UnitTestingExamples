@@ -69,5 +69,29 @@ namespace TestingTechniques.Test.Unit
             var numbers= _sut.Numbers.As<int[]>();
             numbers.Should().HaveCount(4, "because we expect to have 4 numbers in the collection.");
         }
+
+        [Fact]
+        public void ExceptionThrownAssertionExample()
+        {
+            Action result=()=> _sut.Divide(10, 0);
+
+            result.Should().Throw<DivideByZeroException>("because dividing by zero is not allowed.");
+        }
+
+        [Fact]
+        public void EventRaisedAssertionExample()
+        {
+            var monitorSubject=_sut.Monitor();
+            _sut.RaiseMyEvent();
+            monitorSubject.Should().Raise("MyEvent");
+        
+        }
+
+        [Fact]
+        public void TestingInternalMembersExample()
+        {
+            var number= _sut.InternalSecretNumber;
+            number.Should().Be(52, "because it is the internal secret number we are testing.");
+        }
     }
 }
