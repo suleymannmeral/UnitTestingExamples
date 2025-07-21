@@ -228,6 +228,19 @@ public class UserServiceTests
 
     }
 
+    [Fact]
+    public async Task DeleteByIdAsync_ShouldThrowArgumentException_WhenUserNotFound()
+    {
+        // Arrange
+        var userId = Guid.NewGuid();
+        _userRepository.GetByIdAsync(userId).ReturnsNull();
+        // Act
+        var requestAction = async () => await _sut.DeleteByIdAsync(userId);
+        // Assert
+        await requestAction.Should().ThrowAsync<ArgumentException>()
+            .WithMessage("User not found");
+    }
+
 
 
 

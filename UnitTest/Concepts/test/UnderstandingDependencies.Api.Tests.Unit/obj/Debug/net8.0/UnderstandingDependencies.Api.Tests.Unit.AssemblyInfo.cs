@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnderstandingDependencies.Api.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d594e9cb3772a04eb1f17f4b571d77aee5b894a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ed67edc2ab8150be1f7ba15e4a33badbd529b69")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnderstandingDependencies.Api.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnderstandingDependencies.Api.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
