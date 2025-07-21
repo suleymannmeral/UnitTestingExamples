@@ -234,11 +234,28 @@ public class UserServiceTests
         // Arrange
         var userId = Guid.NewGuid();
         _userRepository.GetByIdAsync(userId).ReturnsNull();
+
         // Act
         var requestAction = async () => await _sut.DeleteByIdAsync(userId);
+
         // Assert
         await requestAction.Should().ThrowAsync<ArgumentException>()
             .WithMessage("User not found");
+    }
+    [Fact]
+    public async Task DeleteByIdAsync_ShouldDeleteUser_WhenUserExists()
+    {
+        // Arrange
+        var userId = Guid.NewGuid();
+        var existingUser = new User { Id = userId, FullName = "Test User" };
+        _userRepository.GetByIdAsync(userId).Returns(existingUser);
+        _userRepository.DeleteAsync(existingUser).Returns(true);
+
+        // Act
+        var result = await _sut.DeleteByIdAsync(userId);
+
+        // Assert
+        result.Should().BeTrue();
     }
 
 
