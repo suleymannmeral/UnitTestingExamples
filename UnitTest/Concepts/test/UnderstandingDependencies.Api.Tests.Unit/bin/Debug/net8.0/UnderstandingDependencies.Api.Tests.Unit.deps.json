@@ -13,7 +13,6 @@
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Moq": "4.20.72",
           "NSubstitute": "5.3.0",
-          "TestingTechniques": "1.0.0",
           "UnderstandingDependencies.Api": "1.0.0",
           "coverlet.collector": "6.0.0",
           "xunit": "2.5.3",
@@ -1614,14 +1613,6 @@
         }
       },
       "xunit.runner.visualstudio/2.5.3": {},
-      "TestingTechniques/1.0.0": {
-        "runtime": {
-          "TestingTechniques.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "UnderstandingDependencies.Api/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.18",
@@ -2685,11 +2676,6 @@
       "sha512": "sha512-HFFL6O+QLEOfs555SqHii48ovVa4CqGYanY+B32BjLpPptdE+wEJmCFNXlLHdEOD5LYeayb9EroaUpydGpcybg==",
       "path": "xunit.runner.visualstudio/2.5.3",
       "hashPath": "xunit.runner.visualstudio.2.5.3.nupkg.sha512"
-    },
-    "TestingTechniques/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "UnderstandingDependencies.Api/1.0.0": {
       "type": "project",

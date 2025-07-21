@@ -21,8 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestingTechniques\TestingTechniques.csproj" />
-    <ProjectReference Include="..\UnderstandingDependencies.Api\UnderstandingDependencies.Api.csproj" />
+    <ProjectReference Include="..\..\src\UnderstandingDependencies.Api\UnderstandingDependencies.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

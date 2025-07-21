@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73AACCAC-1CED-BB68-7528-709C43A132B3}|RealProject\\src\\Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\realproject\\src\\users.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73AACCAC-1CED-BB68-7528-709C43A132B3}|RealProject\\src\\Users.Api\\Users.Api.csproj|solutionrelative:realproject\\src\\users.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F9F5149-9EE1-A3DE-4992-504CA3313E06}|Fundamentals\\test\\CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\fundamentals\\test\\calculatorlibrarytest\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9F5149-9EE1-A3DE-4992-504CA3313E06}|Fundamentals\\test\\CalculatorLibraryTest\\CalculatorLibrary.Tests.Unit.csproj|solutionrelative:fundamentals\\test\\calculatorlibrarytest\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC3C7D2-C9C0-0CEF-E54F-D1E6FDA7AABC}|Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\fundamentals\\src\\calculatorlibrary\\calculatorlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1BC3C7D2-C9C0-0CEF-E54F-D1E6FDA7AABC}|Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj|solutionrelative:fundamentals\\src\\calculatorlibrary\\calculatorlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE959E69-ED7D-3A29-1B64-3116CA96075B}|Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\concepts\\test\\understandingdependencies.api.tests.unit\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE959E69-ED7D-3A29-1B64-3116CA96075B}|Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj|solutionrelative:concepts\\test\\understandingdependencies.api.tests.unit\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2E3280A-9753-6D56-5BC7-D91AF6B96C3D}|RealProject\\test\\Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\realproject\\test\\users.api.tests.unit\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2E3280A-9753-6D56-5BC7-D91AF6B96C3D}|RealProject\\test\\Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|solutionrelative:realproject\\test\\users.api.tests.unit\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E3280A-9753-6D56-5BC7-D91AF6B96C3D}|RealProject\\test\\Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\realproject\\test\\users.api.tests.unit\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E3280A-9753-6D56-5BC7-D91AF6B96C3D}|RealProject\\test\\Users.Api.Tests.Unit\\Users.Api.Tests.Unit.csproj|solutionrelative:realproject\\test\\users.api.tests.unit\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A00B46A-7F55-4187-A3D1-7094F8550522}|Techniques\\src\\TestingTechniques\\TestingTechniques.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\techniques\\src\\testingtechniques\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A00B46A-7F55-4187-A3D1-7094F8550522}|Techniques\\src\\TestingTechniques\\TestingTechniques.csproj|solutionrelative:techniques\\src\\testingtechniques\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A00B46A-7F55-4187-A3D1-7094F8550522}|Techniques\\src\\TestingTechniques\\TestingTechniques.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\techniques\\src\\testingtechniques\\valuesample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A00B46A-7F55-4187-A3D1-7094F8550522}|Techniques\\src\\TestingTechniques\\TestingTechniques.csproj|solutionrelative:techniques\\src\\testingtechniques\\valuesample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BE42A1-B427-6E94-9CED-A1F499AB1CDF}|Techniques\\test\\TestingTechniques.Test.Unit\\TestingTechniques.Test.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\techniques\\test\\testingtechniques.test.unit\\valuesamplestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BE42A1-B427-6E94-9CED-A1F499AB1CDF}|Techniques\\test\\TestingTechniques.Test.Unit\\TestingTechniques.Test.Unit.csproj|solutionrelative:techniques\\test\\testingtechniques.test.unit\\valuesamplestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE959E69-ED7D-3A29-1B64-3116CA96075B}|Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\concepts\\test\\understandingdependencies.api.tests.unit\\understandingdependencies.api.tests.unit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE959E69-ED7D-3A29-1B64-3116CA96075B}|Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj|solutionrelative:concepts\\test\\understandingdependencies.api.tests.unit\\understandingdependencies.api.tests.unit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73AACCAC-1CED-BB68-7528-709C43A132B3}|RealProject\\src\\Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\realproject\\src\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73AACCAC-1CED-BB68-7528-709C43A132B3}|RealProject\\src\\Users.Api\\Users.Api.csproj|solutionrelative:realproject\\src\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73AACCAC-1CED-BB68-7528-709C43A132B3}|RealProject\\src\\Users.Api\\Users.Api.csproj|c:\\users\\suley\\source\\repos\\unittesting\\unittest\\realproject\\src\\users.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73AACCAC-1CED-BB68-7528-709C43A132B3}|RealProject\\src\\Users.Api\\Users.Api.csproj|solutionrelative:realproject\\src\\users.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +70,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\src\\Users.Api\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "RealProject\\src\\Users.Api\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\src\\Users.Api\\Services\\UserService.cs",
-              "RelativeToolTip": "RealProject\\src\\Users.Api\\Services\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:01:00.389Z",
+              "DocumentIndex": 1,
+              "Title": "CalculatorLibrary",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj",
+              "RelativeDocumentMoniker": "Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj",
+              "RelativeToolTip": "Fundamentals\\src\\CalculatorLibrary\\CalculatorLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T13:22:33.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UserServiceTests.cs",
+              "RelativeToolTip": "Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UserServiceTests.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:21:19.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "RelativeDocumentMoniker": "Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "RelativeToolTip": "Fundamentals\\test\\CalculatorLibraryTest\\CalculatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:21:05.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Techniques\\src\\TestingTechniques\\Users.cs",
+              "RelativeDocumentMoniker": "Techniques\\src\\TestingTechniques\\Users.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Techniques\\src\\TestingTechniques\\Users.cs",
+              "RelativeToolTip": "Techniques\\src\\TestingTechniques\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:20:56.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValueSample.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Techniques\\src\\TestingTechniques\\ValueSample.cs",
+              "RelativeDocumentMoniker": "Techniques\\src\\TestingTechniques\\ValueSample.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Techniques\\src\\TestingTechniques\\ValueSample.cs",
+              "RelativeToolTip": "Techniques\\src\\TestingTechniques\\ValueSample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:20:53.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ValueSamplesTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Techniques\\test\\TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "RelativeDocumentMoniker": "Techniques\\test\\TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Techniques\\test\\TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "RelativeToolTip": "Techniques\\test\\TestingTechniques.Test.Unit\\ValueSamplesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:20:43.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnderstandingDependencies.Api.Tests.Unit",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj",
+              "RelativeDocumentMoniker": "Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj",
+              "RelativeToolTip": "Concepts\\test\\UnderstandingDependencies.Api.Tests.Unit\\UnderstandingDependencies.Api.Tests.Unit.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T13:20:13.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\test\\Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "RealProject\\test\\Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\test\\Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "RelativeToolTip": "RealProject\\test\\Users.Api.Tests.Unit\\UserControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:06:44.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\test\\Users.Api.Tests.Unit\\UserServiceTests.cs",
               "RelativeDocumentMoniker": "RealProject\\test\\Users.Api.Tests.Unit\\UserServiceTests.cs",
               "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\test\\Users.Api.Tests.Unit\\UserServiceTests.cs",
               "RelativeToolTip": "RealProject\\test\\Users.Api.Tests.Unit\\UserServiceTests.cs",
-              "ViewState": "AgIAAOMAAAAAAAAAAAAiwPwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T11:00:50.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\src\\Users.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "RealProject\\src\\Users.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\src\\Users.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "RealProject\\src\\Users.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:07:04.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\src\\Users.Api\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "RealProject\\src\\Users.Api\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\suley\\source\\repos\\UnitTesting\\UnitTest\\RealProject\\src\\Users.Api\\Services\\UserService.cs",
+              "RelativeToolTip": "RealProject\\src\\Users.Api\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:01:00.389Z",
               "EditorCaption": ""
             }
           ]

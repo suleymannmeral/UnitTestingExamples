@@ -69,8 +69,6 @@ public class UserServiceTests
 
     }
 
-
-
     [Fact]
     public async Task GetAllAsync_ShouldLogMessagesAndException_WhenExceptionIsThrown()
     {
@@ -121,6 +119,7 @@ public class UserServiceTests
           result.Should().BeEquivalentTo(existingUser);
 
     }
+
     [Fact]
     public async Task GetByIdAsync_ShouldLogMessages_WhenInvoked()
     {
@@ -169,6 +168,7 @@ public class UserServiceTests
         ex.Errors.Should().Contain(e => e.ErrorMessage == "Full name must be at least 3 characters long.");
 
     }
+
     [Fact]
     public async Task CreateUserAsync_ShouldThrowValidationException_WhenFullNameIsEmpty()
     {
@@ -211,7 +211,6 @@ public class UserServiceTests
     }
 
     [Fact]
-
     public async Task CreateAsync_ShouldCreateuser_WhenDetailsAreValidAndUnique()
     {
         //Assert
@@ -242,6 +241,7 @@ public class UserServiceTests
         await requestAction.Should().ThrowAsync<ArgumentException>()
             .WithMessage("User not found");
     }
+
     [Fact]
     public async Task DeleteByIdAsync_ShouldDeleteUser_WhenUserExists()
     {
@@ -257,11 +257,6 @@ public class UserServiceTests
         // Assert
         result.Should().BeTrue();
     }
-
-
-
-
-
 
 
 }
