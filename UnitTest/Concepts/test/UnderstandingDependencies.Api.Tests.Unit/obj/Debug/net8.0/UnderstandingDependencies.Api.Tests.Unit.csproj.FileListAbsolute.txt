@@ -163,3 +163,6 @@ C:\Users\suley\source\repos\UnitTesting\UnitTest\UnderstandingDependencies.Api.T
 C:\Users\suley\source\repos\UnitTesting\UnitTest\UnderstandingDependencies.Api.Tests.Unit\obj\Debug\net8.0\UnderstandingDependencies.Api.Tests.Unit.genruntimeconfig.cache
 C:\Users\suley\source\repos\UnitTesting\UnitTest\UnderstandingDependencies.Api.Tests.Unit\obj\Debug\net8.0\ref\UnderstandingDependencies.Api.Tests.Unit.dll
 C:\Users\suley\source\repos\UnitTesting\UnitTest\UnderstandingDependencies.Api.Tests.Unit\bin\Debug\net8.0\Moq.dll
+C:\Users\suley\source\repos\UnitTesting\UnitTest\Concepts\test\UnderstandingDependencies.Api.Tests.Unit\obj\Debug\net8.0\UnderstandingDependencies.Api.Tests.Unit.dll
+C:\Users\suley\source\repos\UnitTesting\UnitTest\Concepts\test\UnderstandingDependencies.Api.Tests.Unit\obj\Debug\net8.0\refint\UnderstandingDependencies.Api.Tests.Unit.dll
+C:\Users\suley\source\repos\UnitTesting\UnitTest\Concepts\test\UnderstandingDependencies.Api.Tests.Unit\obj\Debug\net8.0\UnderstandingDependencies.Api.Tests.Unit.pdb

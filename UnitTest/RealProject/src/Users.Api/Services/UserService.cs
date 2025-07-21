@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FluentValidation;
 using System.Diagnostics;
 using Users.Api.Dtos;
 using Users.Api.Logging;
@@ -15,9 +15,9 @@ namespace Users.Api.Services
         {
             CreateUserDtoValidator validator = new ();
             var result = validator.Validate(request);
-            if(!result.IsValid)
+            if (!result.IsValid)
             {
-                throw new ValidationException(string.Join(", ", result.Errors.Select(s => s.ErrorMessage)));
+                throw new ValidationException(result.Errors);
             }
 
             User user =await userRepository.NameExist(request.FullName, cancellationToken)

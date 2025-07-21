@@ -10,8 +10,7 @@ namespace Users.Api.Validators
         {
             RuleFor(x => x.FullName)
                 .NotEmpty().WithMessage("Full name is required.")
-                .MinimumLength(3).WithMessage("Full name must be at least 3 characters long.")
-                .MaximumLength(100).WithMessage("Full name must not exceed 100 characters.");
+                .MinimumLength(3).WithMessage("Full name must be at least 3 characters long.");
         }
     }
 }

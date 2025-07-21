@@ -1,12 +1,14 @@
 ﻿
 
 using FluentAssertions;
+using FluentValidation;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
 using NSubstitute.Core;
 using NSubstitute.ExceptionExtensions;
 using NSubstitute.ReturnsExtensions;
 using System.Diagnostics;
+using Users.Api.Dtos;
 using Users.Api.Logging;
 using Users.Api.Models;
 using Users.Api.Repositories;
@@ -157,6 +159,34 @@ public class UserServiceTests
               .ThrowAsync<ArgumentException>();
         _logger.Received(1).LogError(exception, "An error occurred while retrieving user");
 
+    }
+
+    [Fact]
+    public async Task CreateUserAsync_ShouldThrownValidationException_WhenUserFullNameIsNotBeAtLeast3CharatersLong()
+    {
+        // Arrange
+        var invalidUser = new CreateUserDto("a");
+
+        // Act
+        var requestAction = async () => await _sut.CreateUserAsync(invalidUser);
+
+        // Assert
+        var ex = await Assert.ThrowsAsync<ValidationException>(requestAction);
+        ex.Errors.Should().Contain(e => e.ErrorMessage == "Full name must be at least 3 characters long.");
+
+    }
+    [Fact]
+    public async Task CreateUserAsync_ShouldThrowValidationException_WhenFullNameIsEmpty()
+    {
+        // Arrange
+        var invalidUser = new CreateUserDto(" ");
+
+        // Act
+        var requestAction = async () => await _sut.CreateUserAsync(invalidUser);
+
+        // Assert
+        var ex = await Assert.ThrowsAsync<ValidationException>(requestAction);
+        ex.Errors.Should().Contain(e => e.ErrorMessage == "Full name is required.");
     }
 
 
