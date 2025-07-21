@@ -1,19 +1,13 @@
-﻿
-
-using FluentAssertions;
+﻿using FluentAssertions;
 using FluentValidation;
-using Microsoft.Extensions.Logging;
 using NSubstitute;
-using NSubstitute.Core;
 using NSubstitute.ExceptionExtensions;
 using NSubstitute.ReturnsExtensions;
-using System.Diagnostics;
 using Users.Api.Dtos;
 using Users.Api.Logging;
 using Users.Api.Models;
 using Users.Api.Repositories;
 using Users.Api.Services;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Users.Api.Tests.Unit;
 
@@ -188,6 +182,55 @@ public class UserServiceTests
         var ex = await Assert.ThrowsAsync<ValidationException>(requestAction);
         ex.Errors.Should().Contain(e => e.ErrorMessage == "Full name is required.");
     }
+
+    [Fact]
+    public Task CreateUserAsync_ShouldThrownAnError_WhenNameExist()
+    {
+        // Arrange
+        var existingUser = new CreateUserDto("Existing User");
+        _userRepository.NameExist(existingUser.FullName).Returns(true);
+        // Act
+        var requestAction = async () => await _sut.CreateUserAsync(existingUser);
+        // Assert
+        return requestAction.Should().ThrowAsync<ArgumentException>()
+            .WithMessage("User with this name already exists");
+    }
+
+    [Fact]
+    public void CreateUserAsync_ShouldCreateUserDtoUserObject()
+    {
+        // Arrange
+        var request= new CreateUserDto("New User");
+
+        //Act
+        var user=_sut.CreateUserDtoToUserObject(request);
+
+        //Assert
+        user.FullName.Should().Be(request.FullName);
+
+    }
+
+    [Fact]
+
+    public async Task CreateAsync_ShouldCreateuser_WhenDetailsAreValidAndUnique()
+    {
+        //Assert
+        var testUser = new CreateUserDto("Test User");
+        _userRepository.NameExist(testUser.FullName).Returns(false);
+        _userRepository.CreateUserAsync(Arg.Any<User>()).Returns(true);
+
+        //Act
+
+        var result = await _sut.CreateUserAsync(testUser);
+
+        //Assert
+        result.Should().BeTrue();
+
+    }
+
+
+
+
 
 
 

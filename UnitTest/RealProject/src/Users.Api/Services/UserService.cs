@@ -22,11 +22,8 @@ namespace Users.Api.Services
 
             User user =await userRepository.NameExist(request.FullName, cancellationToken)
                 ? throw new ArgumentException("User with this name already exists")
-                : new User
-                {
-                FullName = request.FullName
-                };
-          
+                : CreateUserDtoToUserObject(request);
+
             logger.LogInformation($"Creating user with full name:{request.FullName}");
             var stopWatch=Stopwatch.StartNew();
             try
@@ -115,6 +112,17 @@ namespace Users.Api.Services
                 stopWatch.Stop();
                 logger.LogInformation("User retrieved in {ElapsedMilliseconds} ms", stopWatch.ElapsedMilliseconds);
             }
+        }
+
+        public User CreateUserDtoToUserObject(CreateUserDto request)
+        {
+            User user = new()
+            {
+              
+                FullName = request.FullName
+            };
+
+            return user;
         }
     }
 }
