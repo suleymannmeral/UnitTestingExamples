@@ -2,6 +2,7 @@ using Users.Api.Context;
 using Microsoft.EntityFrameworkCore;
 using Users.Api.Repositories;
 using Users.Api.Services;
+using Users.Api.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(opt =>
@@ -11,6 +12,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddTransient(typeof(ILoggerAdapter<>), typeof(LoggerAdapter<>));
 // Add services to the container.
 
 builder.Services.AddControllers();

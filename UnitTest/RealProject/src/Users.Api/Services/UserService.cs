@@ -1,23 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using Users.Api.Dtos;
+using Users.Api.Logging;
 using Users.Api.Models;
 using Users.Api.Repositories;
 using Users.Api.Validators;
 
 namespace Users.Api.Services
 {
-    public sealed class UserService : IUserService
+    public sealed class UserService(IUserRepository userRepository, ILoggerAdapter<UserService> logger) : IUserService
     {
-        private readonly IUserRepository _userRepository;
-        private readonly ILogger<User> _logger;
-
-        public UserService(IUserRepository userRepository, ILogger<User> logger)
-        {
-            _userRepository = userRepository;
-            _logger = logger;
-        }
-
+      
         public async Task<bool> CreateUserAsync(CreateUserDto request, CancellationToken cancellationToken = default)
         {
             CreateUserDtoValidator validator = new ();
@@ -27,28 +20,28 @@ namespace Users.Api.Services
                 throw new ValidationException(string.Join(", ", result.Errors.Select(s => s.ErrorMessage)));
             }
 
-            User user =await _userRepository.NameExist(request.FullName, cancellationToken)
+            User user =await userRepository.NameExist(request.FullName, cancellationToken)
                 ? throw new ArgumentException("User with this name already exists")
                 : new User
                 {
                 FullName = request.FullName
                 };
           
-            _logger.LogInformation($"Creating user with full name:{request.FullName}");
+            logger.LogInformation($"Creating user with full name:{request.FullName}");
             var stopWatch=Stopwatch.StartNew();
             try
             {
-                return await _userRepository.CreateUserAsync(user, cancellationToken);
+                return await userRepository.CreateUserAsync(user, cancellationToken);
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "An error occurred while creating user");
+                logger.LogError(ex, "An error occurred while creating user");
                 throw;
             }
             finally
             {
                 stopWatch.Stop();
-                _logger.LogInformation($"User created in {stopWatch.ElapsedMilliseconds} ms");
+                logger.LogInformation($"User created in {stopWatch.ElapsedMilliseconds} ms");
             }
            
 
@@ -58,68 +51,69 @@ namespace Users.Api.Services
 
         public async Task<bool> DeleteByIdAsync(Guid id, CancellationToken cancellationToken = default)
         {
-           User user = await _userRepository.GetByIdAsync(id, cancellationToken);
+           User user = await userRepository.GetByIdAsync(id, cancellationToken);
             if (user is null)
             {
                throw new ArgumentException("User not found");
             }
-            _logger.LogInformation($"Deleting user with id: {id}");
+            logger.LogInformation($"Deleting user with id: {id}");
             var stopWatch = Stopwatch.StartNew();
             try
             {
-                return await _userRepository.DeleteAsync(user, cancellationToken);
+                return await userRepository.DeleteAsync(user, cancellationToken);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occurred while deleting user");
+                logger.LogError(ex, "An error occurred while deleting user");
                 throw;
             }
             finally
             {
                 stopWatch.Stop();
-                _logger.LogInformation($"User deleted in {stopWatch.ElapsedMilliseconds} ms");
+                logger.LogInformation($"User deleted in {stopWatch.ElapsedMilliseconds} ms");
             }
         }
 
         public async Task<List<User>> GetAllAsync(CancellationToken cancellationToken = default)
         {
          
-            _logger.LogInformation("Retrieving all users");
+            logger.LogInformation("Retrieving all users");
             var stopWatch = Stopwatch.StartNew();
             try
             {
-                return await _userRepository.GetAllASync(cancellationToken);
+                return await userRepository.GetAllASync(cancellationToken);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occurred while retrieving users");
+                logger.LogError(ex, "An error occurred while retrieving users");
                 throw;
             }
             finally
             {
                 stopWatch.Stop();
-                _logger.LogInformation($"Users retrieved in {stopWatch.ElapsedMilliseconds} ms");
+                logger.LogInformation("Users retrieved in {ElapsedMilliseconds} ms", stopWatch.ElapsedMilliseconds);
+
             }
 
         }
 
         public async Task<User?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
         {
-            _logger.LogInformation($"Retrieving user with id:{id} ");
+            logger.LogInformation($"Retrieving user with id:{id}");
             var stopWatch = Stopwatch.StartNew();
             try
             {
-                return await _userRepository.GetByIdAsync(id,cancellationToken);
+                return await userRepository.GetByIdAsync(id,cancellationToken);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occurred while retrieving user");
+                logger.LogError(ex, "An error occurred while retrieving user");
                 throw;
             }
             finally
             {
                 stopWatch.Stop();
-                _logger.LogInformation($"User retrieved in {stopWatch.ElapsedMilliseconds} ms");
+                logger.LogInformation("User retrieved in {ElapsedMilliseconds} ms", stopWatch.ElapsedMilliseconds);
             }
         }
     }

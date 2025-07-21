@@ -3,9 +3,15 @@
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
+using NSubstitute.Core;
+using NSubstitute.ExceptionExtensions;
+using NSubstitute.ReturnsExtensions;
+using System.Diagnostics;
+using Users.Api.Logging;
 using Users.Api.Models;
 using Users.Api.Repositories;
 using Users.Api.Services;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Users.Api.Tests.Unit;
 
@@ -13,7 +19,7 @@ public class UserServiceTests
 {
     private readonly UserService _sut;
     private readonly IUserRepository _userRepository=Substitute.For<IUserRepository>();
-    private readonly ILogger<User> _logger=Substitute.For<ILogger<User>>();
+    private readonly ILoggerAdapter<UserService> _logger = Substitute.For<ILoggerAdapter<UserService>>();
 
     public UserServiceTests()
     {
@@ -63,8 +69,96 @@ public class UserServiceTests
 
         //Assert
         _logger.Received(1).LogInformation(Arg.Is("Retrieving all users"));
-        _logger.Received(1).LogInformation(Arg.Is("Retrieved all users in {ElapsedMilliseconds} ms"), Arg.Any<long>());
+        _logger.Received(1).LogInformation("Users retrieved in {ElapsedMilliseconds} ms", Arg.Any<long>());
+
     }
+
+
+
+    [Fact]
+    public async Task GetAllAsync_ShouldLogMessagesAndException_WhenExceptionIsThrown()
+    {
+        //Arrange
+        var exception = new ArgumentException("An error occurred while retrieving users");
+        _userRepository.GetAllASync().Throws(exception);
+
+        //Act
+         var requestAction= async ()=> await _sut.GetAllAsync();
+
+        //Assert
+        await requestAction.Should()
+              .ThrowAsync<ArgumentException>();
+        _logger.Received(1).LogError(exception, "An error occurred while retrieving users");
+
+    }
+
+    [Fact]
+    public async Task GetByIdAsync_ShouldReturnNull_whenNoUserExist()
+    {
+        // Arrange
+        _userRepository.GetByIdAsync(Arg.Any<Guid>()).ReturnsNull();
+
+        // Act
+        var result = await _sut.GetByIdAsync(Guid.NewGuid());
+
+        //Assert
+        result.Should().BeNull();
+
+    }
+
+    [Fact]
+    public async Task GetByIdAsync_ShouldUser_WhenSomeUserExist()
+    {
+       var existingUser=new User
+       {
+              Id = Guid.NewGuid(),
+              FullName = "Test User"
+         };
+    
+          // Arrange
+          _userRepository.GetByIdAsync(existingUser.Id).Returns(existingUser);
+    
+          // Act
+          var result = await _sut.GetByIdAsync(existingUser.Id);
+    
+          //Assert
+          result.Should().BeEquivalentTo(existingUser);
+
+    }
+    [Fact]
+    public async Task GetByIdAsync_ShouldLogMessages_WhenInvoked()
+    {
+        //Arrange
+        var userId= Guid.NewGuid();
+        _userRepository.GetByIdAsync(userId).ReturnsNull();
+
+        //Act
+        await _sut.GetByIdAsync(userId);
+
+        //Assert
+        _logger.Received(1).LogInformation($"Retrieving user with id:{userId}");
+        _logger.Received(1).LogInformation("User retrieved in {ElapsedMilliseconds} ms", Arg.Any<long>());
+
+    }
+
+    [Fact]
+    public async Task GetByIdAsync_ShouldLogMessagesAndException_WhenExceptionIsThrown()
+    {
+        //Arrange
+        var userId = Guid.NewGuid();
+        var exception = new ArgumentException("Something went wrong ");
+        _userRepository.GetByIdAsync(userId).Throws(exception);
+
+        //Act
+        var requestAction = async () => await _sut.GetByIdAsync(userId);
+
+        //Assert
+        await requestAction.Should()
+              .ThrowAsync<ArgumentException>();
+        _logger.Received(1).LogError(exception, "An error occurred while retrieving user");
+
+    }
+
 
 
 }
